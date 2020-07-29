@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionList component should match the snapshot 1`] = `
+<div>
+  <h3>
+    Add new transaction
+  </h3>
+  <form>
+    <div
+      class="form-control"
+    >
+      <label
+        for="text"
+      >
+        Text
+      </label>
+      <input
+        placeholder="Enter text..."
+        type="text"
+      />
+    </div>
+    <div
+      class="form-control"
+    >
+      <label
+        for="amount"
+      >
+        Amount 
+        <br />
+        (negative - expense, positive - income)
+      </label>
+      <input
+        placeholder="Enter amount..."
+        type="number"
+      />
+    </div>
+    <button
+      class="btn"
+    >
+      Add transaction
+    </button>
+  </form>
+</div>
+`;
