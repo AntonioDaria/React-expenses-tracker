@@ -17,6 +17,7 @@ exports[`TransactionList component should match the snapshot 1`] = `
       <input
         placeholder="Enter text..."
         type="text"
+        value=""
       />
     </div>
     <div
@@ -32,6 +33,7 @@ exports[`TransactionList component should match the snapshot 1`] = `
       <input
         placeholder="Enter amount..."
         type="number"
+        value="0"
       />
     </div>
     <button
