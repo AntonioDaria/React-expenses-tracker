@@ -1,6 +1,6 @@
 # Expense Tracker (React)
 
-A React Expenses Tracker. 
+A React Expenses Tracker. (Work In Progress)
 
 ## Technologies used
 
