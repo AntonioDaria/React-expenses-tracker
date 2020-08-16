@@ -11,9 +11,56 @@ exports[`TransactionList component should match the snapshot 1`] = `
     <li
       class="minus"
     >
-      Cash 
+      Flower
+       
       <span>
-        -$400
+        $
+        -20
+      </span>
+      <button
+        class="delete-btn"
+      >
+        x
+      </button>
+    </li>
+    <li
+      class="minus"
+    >
+      Salary
+       
+      <span>
+        $
+        300
+      </span>
+      <button
+        class="delete-btn"
+      >
+        x
+      </button>
+    </li>
+    <li
+      class="minus"
+    >
+      Book
+       
+      <span>
+        $
+        -10
+      </span>
+      <button
+        class="delete-btn"
+      >
+        x
+      </button>
+    </li>
+    <li
+      class="minus"
+    >
+      Camera
+       
+      <span>
+        $
+        150
       </span>
       <button
         class="delete-btn"

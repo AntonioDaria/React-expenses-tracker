@@ -1,7 +1,7 @@
 import React, { createContext, useReducer } from 'react'
 import AppReducer from './AppReducer'
 
-//Initial State
+// 1 Initial State
 
 const initialState = {
     transactions: [
@@ -12,13 +12,13 @@ const initialState = {
     ]
 }
 
-// Create Context
+// 2 Create Context
 
 export const GlobalContext = createContext(initialState);
 
 
 
-// In order for our component to have access to our global state we need a Provider
+//  3 In order for our components to have access to our global state we need a Provider
 
 //Provider Component
 
