@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transaction component should match the snapshot 1`] = `
+<div>
+  <li
+    class="minus"
+  >
+     
+    <span>
+      $
+    </span>
+    <button
+      class="delete-btn"
+    >
+      x
+    </button>
+  </li>
+</div>
+`;

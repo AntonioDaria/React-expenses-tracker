@@ -7,3 +7,6 @@ export const Transaction = ({transaction}) => {
         </li>
     )
 }
+
+
+export default Transaction
