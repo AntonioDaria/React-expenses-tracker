@@ -10,6 +10,7 @@ exports[`TransactionList component should match the snapshot 1`] = `
   >
     <li
       class="minus"
+      data-testid="sidePanelColor"
     >
       Flower
        
@@ -25,7 +26,8 @@ exports[`TransactionList component should match the snapshot 1`] = `
       </button>
     </li>
     <li
-      class="minus"
+      class="plus"
+      data-testid="sidePanelColor"
     >
       Salary
        
@@ -42,6 +44,7 @@ exports[`TransactionList component should match the snapshot 1`] = `
     </li>
     <li
       class="minus"
+      data-testid="sidePanelColor"
     >
       Book
        
@@ -57,7 +60,8 @@ exports[`TransactionList component should match the snapshot 1`] = `
       </button>
     </li>
     <li
-      class="minus"
+      class="plus"
+      data-testid="sidePanelColor"
     >
       Camera
        

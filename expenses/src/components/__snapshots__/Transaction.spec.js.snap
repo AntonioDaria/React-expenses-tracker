@@ -3,7 +3,8 @@
 exports[`Transaction component should match the snapshot 1`] = `
 <div>
   <li
-    class="minus"
+    class="plus"
+    data-testid="sidePanelColor"
   >
      
     <span>

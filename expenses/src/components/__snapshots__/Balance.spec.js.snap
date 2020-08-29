@@ -6,7 +6,8 @@ exports[`Balance component should match the snapshot 1`] = `
     Your Balance
   </h4>
   <h1>
-    $0.00
+    $
+    420.00
   </h1>
 </div>
 `;
