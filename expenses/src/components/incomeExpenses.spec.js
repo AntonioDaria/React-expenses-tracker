@@ -14,6 +14,9 @@ describe('IncomeExpenses component', () => {
     it('should match the snapshot', () => {
         expect(container).toMatchSnapshot();
     });
+
+    it.todo('should display the right amount for income');
+    it.todo('should display the right amount for expense');
 });
 
 const renderIncomeExpenses= () => {
