@@ -1,5 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Balance component should display the right balance 1`] = `
+<div>
+  <h4>
+    Your Balance
+  </h4>
+  <h1>
+    $
+    420.00
+  </h1>
+</div>
+`;
+
 exports[`Balance component should match the snapshot 1`] = `
 <div>
   <h4>

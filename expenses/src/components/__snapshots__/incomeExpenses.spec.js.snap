@@ -12,7 +12,8 @@ exports[`IncomeExpenses component should match the snapshot 1`] = `
       <p
         class="money plus"
       >
-        +$0.00
+        +
+        450.00
       </p>
     </div>
     <div>
@@ -22,7 +23,8 @@ exports[`IncomeExpenses component should match the snapshot 1`] = `
       <p
         class="money minus"
       >
-        -$0.00
+        -$
+        30.00
       </p>
     </div>
   </div>
