@@ -26,11 +26,23 @@ export const GlobalProvider = ({ children }) => {
 
     const [state, dispatch] = useReducer(appContextReducer, INITIAL_TRANSACTION_CONTEXT_STATE);
 
+//Actions to make calls to reducer
+
+    function deleteTransaction(id) {
+        dispatch({
+            type: 'DELETE_TRANSACTION',
+            payload: id
+        });
+    }
+
     return (
         <GlobalContext.Provider
-            value={{ transactions: state.transactions, dispatch }}>
+            value={{ transactions: state.transactions,
+            deleteTransaction
+            }}>
             {children}
         </GlobalContext.Provider>
     )
 
 }
+

@@ -14,5 +14,6 @@ describe('the Global state component', () => {
     it('should add the transactions array to the global state', () => {
        expect(newState.transactions).toEqual(EXAMPLE_TRANSACTION_ARRAY);
     });
+
     
 });
