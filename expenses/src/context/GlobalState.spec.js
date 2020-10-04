@@ -1,6 +1,5 @@
 import { INITIAL_TRANSACTION_CONTEXT_STATE } from './GlobalState';
 import { appContextReducer } from './AppReducer';
-import {EXAMPLE_TRANSACTION_ARRAY} from '../sampleData/transactionsArray';
 
 
 describe('the Global state component', () => {
@@ -12,7 +11,7 @@ describe('the Global state component', () => {
     });  
     
     it('should add the transactions array to the global state', () => {
-       expect(newState.transactions).toEqual(EXAMPLE_TRANSACTION_ARRAY);
+       expect(newState.transactions).toEqual([]);
     });
 
     
